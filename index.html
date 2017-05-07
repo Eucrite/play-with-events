@@ -30,7 +30,7 @@
 	<input type="reset" value="Reset">
 	</form><br/><br/>
 	
-	<img src="Arrows.png" id="logo">
+	<img src="img/Arrows.png" id="logo">
 	<button id="logoButton">Get Picture</button><br/>
 	<input id="mouseInput" type="text" size="30"><br/>
 	
@@ -105,13 +105,13 @@
  
 		// Change image src on mouseover
 		document.getElementById('logo').onmouseover = function(event) {
-			document.getElementById('logo').src = "Arrows2.png";
+			document.getElementById('logo').src = "img/Arrows2.png";
 			document.getElementById('mouseInput').value = "Mouse Over image";
 		}
  
 		// Change image src back on mouseout
 		document.getElementById('logo').onmouseout = function(event) {
-			document.getElementById('logo').src = "Arrows.png";
+			document.getElementById('logo').src = "img/Arrows.png";
 			document.getElementById('mouseInput').value = "Mouse Left image";
 		}
  
